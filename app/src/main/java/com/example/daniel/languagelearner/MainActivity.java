@@ -7,7 +7,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-
+//Kevin is cool
     public void hello(View view){
         MediaPlayer mplayer = MediaPlayer.create(this,R.raw.helloamharic);
         mplayer.start();
