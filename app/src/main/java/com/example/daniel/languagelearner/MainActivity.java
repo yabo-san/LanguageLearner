@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
     public void hello(View view){
         MediaPlayer mplayer = MediaPlayer.create(this,R.raw.helloamharic);
         mplayer.start();
+        mplayer.reset();
+
     }
 
     public void goodbye(View view){
@@ -21,28 +23,39 @@ public class MainActivity extends AppCompatActivity {
     public void how1(View view){
         MediaPlayer mplayer = MediaPlayer.create(this, R.raw.howareyoumale);
         mplayer.start();
+        mplayer.reset();
+
     }
 
     public void how2(View view){
         MediaPlayer mplayer = MediaPlayer.create(this,R.raw.howareyoufemale);
         mplayer.start();
+        mplayer.reset();
     }
     public void thank(View view){
         MediaPlayer mplayer = MediaPlayer.create(this,R.raw.thankyouamharic);
         mplayer.start();
+        mplayer.reset();
+
     }
     public void konjo(View view){
         MediaPlayer mplayer = MediaPlayer.create(this,R.raw.konjo);
         mplayer.start();
+        mplayer.reset();
 
-}
+
+    }
     public void yene(View view) {
         MediaPlayer mplayer = MediaPlayer.create(this, R.raw.mynameisam);
         mplayer.start();
+        mplayer.reset();
+
     }
     public void sorry(View view) {
         MediaPlayer mplayer = MediaPlayer.create(this, R.raw.imsorry);
         mplayer.start();
+        mplayer.reset();
+
     }
 
 
